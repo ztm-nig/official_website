@@ -1,7 +1,29 @@
-html, body{
-
+img{
+    width:100px;
+    height:100px;
 }
-
-div {
-    
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.round input[type=search]{
+    border-radius: 15px;
+    padding: 10px;
+}
+.text-center{
+    text-align:center;
+}
+.font-20{
+    font-size: 20px;
+    font-family: MijaWO3-Bold
+}
+.font-Minya{
+    font-family: Minya Nouvelle;
+}
+.green{
+    color:#01ff01;
+}
+.shadow{
+    text-shadow: black 3px 3px;
 }
