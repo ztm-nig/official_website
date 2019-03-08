@@ -1,29 +1,77 @@
-img{
+body{
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-logo > img{
     width:100px;
     height:100px;
+    margin-right: 50px;
 }
-li{
+
+.navbar-logo{
+    float: left;
+    min-height: 2em;
+}
+
+.nav-menu{
+    color: #fffdd0;
+    padding: 8px;
+    background-color:#021b51;
+    display: inline-flex;
+}
+
+.nav-fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav{
+    min-height: 50px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+}
+
+.nav > li {
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.nav > li > a{
+    padding: 22px 10px;
+    text-decoration: none;
+    color: #01ff01;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.nav > li > p {
+    color: blue;
+    align-items: left;
+    font-size: 10px;
+    font-weight: bold;
+}
+ 
+ul {
     list-style: none;
     display: inline-block;
-    margin-left: 20px;
+    margin-top: 3em;
+    margin-bottom: 0;
 }
+
 .round input[type=search]{
     border-radius: 15px;
     padding: 10px;
-}
-.text-center{
-    text-align:center;
-}
-.font-20{
-    font-size: 20px;
-    font-family: MijaWO3-Bold
-}
-.font-Minya{
-    font-family: Minya Nouvelle;
-}
-.green{
-    color:#01ff01;
-}
-.shadow{
-    text-shadow: black 3px 3px;
+    float: right;
 }
