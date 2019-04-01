@@ -5,6 +5,20 @@
 
 @media only screen and (max-width: 767px) {
     /* phones */
+    .logo{
+        width:50px;
+        margin: 5px 15px 5px 10px;
+    }
+
+    .nav-list{
+        float: left;
+        margin: 5px 5px 5px 5px;
+        padding: 5px;
+        text-align: center;
+        width: 13%;
+        /* border: 2px dashed; */
+    }
+    
     
 }
 
