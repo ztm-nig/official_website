@@ -23,13 +23,13 @@ body{
 
 .logo{
     width:100px;
-    margin: 20px 50px 0px 0px;
+    margin: 10px 30px 10px 50px;
 }
 
 .nav{
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: #fffdd0;
-    background-color:#021b51;
+    background-color:#081a42;
 }
 
 .nav-list{
@@ -38,33 +38,50 @@ body{
     padding: 5px;
     text-align: center;
     width: 13%;
-    border: 2px dashed;
+    /* border: 2px dashed; */
 }
 
 .nav-list a{
     display: block;
     text-decoration: none;
-    color: #01ff01;
-    font-size: 14px;
-    font-weight: bolder;
+    color: #e6eee6;
+    font-size: 10px;
+    /* font-weight: bolder; */
     transition: 1s;
 }
 
 .nav-list a:hover{
-    color: rgba(1, 255, 1, 0.5)
+    color: rgba(1, 255, 1, 0.5);
+    -webkit-transform: scale(1.7);
 }
 
 .nav-list p{
-    color: blue;
+    color: #a0bbfb;
+    text-shadow: 1px 1px 1px #bccdf5;
     align-items: left;
-    font-size: 10px;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
     font-weight: bold;
     cursor: default;   
 }
 
 
 .round input[type=text]{
-    padding: 6px;
+    background: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png");
+    /* background-position: 10px center; */
+    background-repeat: no-repeat;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    padding: 5px 3px 5px 10px;
+    text-indent: 20px; 
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 2s;
+    transition: all 0.2s;
     margin-top:40px;
     margin-left: 50px;
     position: relative;
